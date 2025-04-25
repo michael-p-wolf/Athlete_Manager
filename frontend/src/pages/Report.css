@@ -1,0 +1,25 @@
+.workout-summary-table {
+    width: 50%; /* Make table full width */
+    border-collapse: collapse; /* Ensures borders don’t double up */
+    margin-top: 20px; /* Adds space above the table */
+}
+
+.workout-summary-table th, 
+.workout-summary-table td {
+    border: 2px solid #333; /* Darker border for better visibility */
+    padding: 12px; /* Increase padding for readability */
+    text-align: left; /* Align text properly */
+}
+
+.workout-summary-table th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+    font-weight: bold;
+}
+
+.workout-summary-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color for better readability */
+}
+
+.workout-summary-table tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+}
